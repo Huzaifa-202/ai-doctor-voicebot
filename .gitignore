@@ -12,7 +12,3 @@ __pycache__/
 .DS_Store
 Thumbs.db
 
-# Ignore audio and output files (optional)
-*.mp3
-*.wav
-*.ogg
