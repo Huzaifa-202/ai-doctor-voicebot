@@ -40,6 +40,10 @@ AI Doctor VoiceBot is a multimodal application that allows users to describe sym
 
 This creates a smooth multimodal flow from patient input to intelligent, human-like AI response.
 
+### 📷 Example UI
+
+<img width="488" alt="Voicebot_UI" src="https://github.com/user-attachments/assets/f433c0dc-4bc0-4efd-b260-f476e18dcbe0" />
+
 
 ## 🗂️ Project Structure
 
