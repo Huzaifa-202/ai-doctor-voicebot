@@ -72,7 +72,7 @@ Open your browser and go to:
 
 http://localhost:7860
 
-📦 Dependencies
+##📦 Dependencies
 
 gradio
 sounddevice
@@ -83,7 +83,7 @@ python-dotenv
 groq
 ffmpeg
 
-🙏 Acknowledgements
+##🙏 Acknowledgements
 
 Groq – for high-speed inference with Whisper and LLaMA
 
