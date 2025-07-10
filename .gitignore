@@ -1,0 +1,18 @@
+# Ignore virtual environment folders
+venv/
+env/
+ai-medical-voicebot/
+__pycache__/
+*.pyc
+
+# Ignore environment variable files
+.env
+
+# Ignore OS/system files
+.DS_Store
+Thumbs.db
+
+# Ignore audio and output files (optional)
+*.mp3
+*.wav
+*.ogg
