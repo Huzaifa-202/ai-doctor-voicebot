@@ -1,14 +1,38 @@
-# Ignore virtual environment folders
+# Python virtual environments and system packages
 venv/
 env/
-ai-medical-voicebot/
+Lib/
+ai-doctor-chatbot/Lib/
+ai-doctor-chatbot/venv/
+ai-doctor-chatbot/env/
+
+# Bytecode and cache
 __pycache__/
-*.pyc
+*.py[cod]
+*.pyo
+*.pyd
 
-# Ignore environment variable files
+# Environment variables and secrets
 .env
+*.env
 
-# Ignore OS/system files
+# macOS / Windows system files
 .DS_Store
 Thumbs.db
 
+# Gradio SSL certs (if exists)
+.gradio/
+
+# Docker artifacts
+*.log
+*.pid
+*.tar
+*.sock
+
+# VS Code settings (optional)
+.vscode/
+
+# Output files
+*.mp3
+*.wav
+*.webm
