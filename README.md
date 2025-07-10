@@ -73,7 +73,7 @@ Open your browser and go to:
 http://localhost:7860
 
 ## 📦 Dependencies
----------------
+
 gradio
 sounddevice
 soundfile
@@ -84,7 +84,7 @@ groq
 ffmpeg
 
 ## 🙏 Acknowledgements
----------------
+
 Groq – for high-speed inference with Whisper and LLaMA
 
 OpenAI Whisper – for transcription
