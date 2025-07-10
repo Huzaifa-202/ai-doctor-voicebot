@@ -29,6 +29,18 @@ AI Doctor VoiceBot is a multimodal application that allows users to describe sym
 
 ---
 
+## 🧠 How It Works
+
+1. **🎤 Patient speaks** a symptom or concern using the microphone.
+2. **📄 Whisper model** (via Groq API) transcribes the speech to text.
+3. **🖼️ Patient uploads** an image (e.g., skin condition, rash, etc.).
+4. **🧠 LLaMA Vision model** analyzes the image and combines it with the transcribed symptom.
+5. **🩺 A doctor-style response** is generated using Groq’s multimodal LLM.
+6. **🔊 gTTS** converts the response to speech and plays it back to the user.
+
+This creates a smooth multimodal flow from patient input to intelligent, human-like AI response.
+
+
 ## 🗂️ Project Structure
 
 ai-doctor-voicebot/
